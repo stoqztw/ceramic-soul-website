@@ -1,0 +1,25 @@
+{
+  "name": "ceramic-soul-website",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoqztw/ceramic-soul-website.git"
+  },
+  "author": "Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stoqztw/ceramic-soul-website/issues"
+  },
+  "homepage": "https://github.com/stoqztw/ceramic-soul-website#readme",
+  "description": "",
+  "devDependencies": {
+    "postcss": "^8.5.3",
+    "postcss-pxtorem": "^6.1.0",
+    "sass": "^1.87.0",
+    "vite": "^6.3.4"
+  }
+}
