@@ -6,8 +6,10 @@
 
 // base
 @use '/src/sass/base/variables.scss';
+@use '/src/sass/base/basic.scss';
 
 // ui
 
 // blocks
+@use '/src/sass/blocks/promo.scss';
 @use '/src/sass/blocks/header.scss';
