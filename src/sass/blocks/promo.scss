@@ -22,7 +22,27 @@
 		box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 	}
 
-	&__cta {
-		margin: 18px auto;
+	&__button {
+		margin: 18px auto 0 auto;
 	}
+}
+
+@media screen and (min-width: 768px) {
+    .promo {
+        &__wrapper {
+            padding-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__title {
+            margin: 250px 0 0 71px;
+            text-align: start;
+        }
+
+        &__img {
+            margin: 0;
+            max-width: 230px;
+        }
+    }
 }
