@@ -7,10 +7,7 @@
 	}
 
 	&__logo {
-		img {
-			width: 100px;
-			height: 100px;
-		}
+		width: 100px;
 	}
 
 	&__buttons {
@@ -131,12 +128,12 @@
 				text-decoration: none;
 
 				&:after {
-					content: '';
+					content: "";
 					display: block;
 					width: 0%;
 					height: 1%;
 					background-color: $dark;
-					transition: all .3s ease-in-out;
+					transition: all 0.3s ease-in-out;
 				}
 
 				&:hover::after {
@@ -148,5 +145,20 @@
 
 	.burger {
 		visibility: hidden;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.header {
+		&__logo {
+			width: 150px;
+		}
+		&__nav {
+			margin-top: 36px;
+
+			ul {
+				column-gap: 60px;
+			}
+		}
 	}
 }
